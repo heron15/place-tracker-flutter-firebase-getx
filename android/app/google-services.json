@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443346001826",
+    "project_id": "m360ict-flutter-task",
+    "storage_bucket": "m360ict-flutter-task.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443346001826:android:7269ade07819493d7a5cfb",
+        "android_client_info": {
+          "package_name": "com.example.m3600ict_flutter_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqkZC6F6D_cb_BxPTqkCjNzWlO0uOgRGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

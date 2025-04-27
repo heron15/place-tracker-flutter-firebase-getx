@@ -1,0 +1,35 @@
+class AppStrings {
+  static const String signIn = "Sign In";
+  static const String letsSaveEnvironmentTogether = "Let’s save environment together";
+  static const String email = "Email";
+  static const String emailHintText = "user@example.com";
+  static const String password = "Password";
+  static const String passwordHintText = "**********";
+  static const String rememberMe = "Remember me";
+  static const String forgottenPassword = "Forgotten Password";
+  static const String orSignInWith = "Or Sign In with";
+  static const String dontHaveAnAccount = "Don’t have an account? ";
+  static const String signUp = "Sign Up";
+  static const String m360ict = "M360 ICT";
+  static const String poweredBy = "Powered by ";
+  static const String name = "Name";
+  static const String nameHintText = "Heronmoy Biswas";
+  static const String phoneNumber = "Phone Number";
+  static const String confirmPassword = "Confirm Password";
+  static const String orSignUpWith = "Or Sign Up with";
+  static const String alreadyHaveAnAccount = "Already have an account? ";
+  static const String goodMorning = "Good Morning";
+  static const String youAreInHealthyEnvironment = "You are in a healthy environment";
+  static const String myPlaces = "My Places";
+  static const String home = "Home";
+  static const String good = "Good";
+  static const String viewDetails = "View Details";
+  static const String office = "Office";
+  static const String healthy = "Healthy";
+  static const String ppm = "ppm";
+  static const String persons = "Persons";
+  static const String rooms = "Rooms";
+  static const String plants = "Plants";
+  static const String requiresAction = "2 of them requires action";
+  static const String passwordNotMatch = "Password not match";
+}
