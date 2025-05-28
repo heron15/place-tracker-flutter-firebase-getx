@@ -11,7 +11,7 @@ void main() async {
   );
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then(
     (_) {
-      runApp(const M360ICTaskApp());
+      runApp(const PlaceTrackerApp());
     },
   );
 }
