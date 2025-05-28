@@ -8,16 +8,16 @@ import 'core/dependency/dependency.dart';
 import 'core/route/app_route.dart';
 import 'utils/app_colors.dart';
 
-class M360ICTaskApp extends StatefulWidget {
-  const M360ICTaskApp({super.key});
+class PlaceTrackerApp extends StatefulWidget {
+  const PlaceTrackerApp({super.key});
 
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
   @override
-  State<M360ICTaskApp> createState() => _M360ICTaskAppState();
+  State<PlaceTrackerApp> createState() => _PlaceTrackerAppState();
 }
 
-class _M360ICTaskAppState extends State<M360ICTaskApp> {
+class _PlaceTrackerAppState extends State<PlaceTrackerApp> {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
@@ -30,7 +30,7 @@ class _M360ICTaskAppState extends State<M360ICTaskApp> {
       designSize: const Size(360, 640),
       builder: (context, child) {
         return GetMaterialApp(
-          navigatorKey: M360ICTaskApp.navigatorKey,
+          navigatorKey: PlaceTrackerApp.navigatorKey,
           debugShowCheckedModeBanner: false,
           defaultTransition: Transition.fadeIn,
           transitionDuration: const Duration(milliseconds: 300),
